@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'FuturaHand', serif;
+}
+
+.header {
+    width: 100%;
+    height: 15vh;
+    /* background-color: darkred; */
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ri-menu-search-line {
+    font-size: 2em;
+}
+
+.header_right_links {
+    display: flex;
+    /* padding: 5px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 30px;
+
+}
+
+.header_right_links span:nth-child(1) {
+    background-color: #bbbbbb;
+    height: 3vh;
+    color: #fff;
+    border-radius: 2px;
+
+}
+
+.header_right_links span:nth-child(2) {
+    background-color: #444444;
+    height: 3vh;
+    border-radius: 2px;
+    color: #fff;
+
+}
+
+.newoldstock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.newoldstock p {
+    text-transform: uppercase;
+
+}
+
+.newoldstock h1 {
+    font-size: 5rem;
+    font-weight: 200;
+
+}
+
+.hero_links {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    text-transform: uppercase;
+
+}
+
+.hero_links a:nth-child(1) {
+    text-decoration: none;
+    color: blue;
+}
+
+.hero_links a {
+    text-decoration: none;
+    color: black;
+}
+
+.main_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    padding: 10px 300px 10px 300px;
+    /* padding-top: 10px; */
+    /* padding-top: 10px; */
+}
+
+.main_images img {
+    width: 100%;
+    padding-top: 50px;
+
+}
+
+.main_images a {
+    /* text-decoration: underline; */
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid grey;
+    /* padding-bottom: 50px; */
+    /* margin-bottom: 10px; */
+
+}
+
+.main_image_description {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.description_right {
+    display: flex;
+    gap: 25px;
+    font-size: 2rem;
+}

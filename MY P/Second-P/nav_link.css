@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 40px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    font-size: larger;
+}
+
+.link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+    scale: 0 1;
+    transform-origin: right;
+    transition: scale 0.25s;
+}
+
+.link:hover::before {
+    scale: 1;
+    transform-origin: left;
+}

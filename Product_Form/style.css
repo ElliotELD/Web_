@@ -1,0 +1,84 @@
+.box_1 {
+  height: 450px;
+  width: 300px;
+  border: 2px solid gray;
+}
+
+#t_check {
+  margin: 10px 10px 10px 20px;
+  height: 50px;
+  width: 30px;
+}
+
+#t_shirt {
+  margin-top: -50px;
+  margin-left: 80px;
+  height: 200px;
+  width: 60%;
+}
+hr {
+  filter: opacity(0%);
+}
+p {
+  margin-left: 20px;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#amount {
+  color: rgb(107, 107, 239);
+  font-weight: bolder;
+}
+
+.text {
+  margin-left: 20px;
+  filter: opacity(70%);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* t qty */
+
+.dropdown_qty {
+  background-color: #fff;
+  min-width: 160px;
+  color: black;
+}
+#dropdown_qty {
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: auto;
+  font-size: 18px;
+}
+/* t color */
+
+.dropdown_color {
+  background-color: #fff;
+  min-width: 160px;
+  color: black;
+}
+#dropdown_color {
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 18px;
+
+  width: auto;
+}
+/* t size */
+
+.dropdown_size {
+  background-color: #fff;
+  min-width: 160px;
+  color: black;
+}
+#dropdown_size {
+  height: 40px;
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 70px;
+}

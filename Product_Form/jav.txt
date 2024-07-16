@@ -1,0 +1,61 @@
+1. What is Java? Explain various features of Java.
+ANS:**Java**: Java is a high-level, object-oriented programming language developed by Sun Microsystems (now owned by Oracle). It is known for its platform independence, which allows Java programs to run on any operating system with the help of the Java Virtual Machine (JVM). Key features include:
+
+- **Object-Oriented**: Java follows the OOP paradigm, allowing code organization around objects and classes.
+- **Platform Independence**: Java bytecode runs on any platform with the JVM, promoting "Write Once, Run Anywhere" (WORA).
+- **Garbage Collection**: Automatic memory management to handle memory deallocation.
+- **Multi-threading**: Support for concurrent execution of threads for efficient multitasking.
+- **Exception Handling**: Built-in mechanisms to manage runtime errors gracefully.
+- **Security**: Strong security model for safe execution of code.
+2. How many type of literals Java support? Explain these literals.
+ANS: **Types of Literals in Java**: Java supports several types of literals:
+
+- **Numeric Literals**: Represent numbers and can be integers, decimals, or in scientific notation (e.g., 42, 3.14, 6.022E23).
+- **Character Literals**: Represent single characters enclosed in single quotes (e.g., 'A', '5').
+- **String Literals**: Represent sequences of characters enclosed in double quotes (e.g., "Hello").
+- **Boolean Literals**: Represent boolean values, either true or false.
+- **Null Literal**: Represents a reference that points to no object (e.g., null).
+ 
+3. Explain typecasting in detail.
+ANS:  **Typecasting**: Typecasting is the process of converting one data type into another. In Java, typecasting can be explicit or implicit.
+
+- **Implicit Typecasting (Widening)**: It occurs automatically when converting a smaller data type to a larger one, such as converting an int to a double.
+
+- **Explicit Typecasting (Narrowing)**: It requires explicit syntax when converting a larger data type to a smaller one, such as converting a double to an int. It may lead to data loss.
+
+4. Explain Bitwise Operators with suitable examples
+ANS: 
+**Bitwise Operators**: Bitwise operators manipulate individual bits in an integer's binary representation.
+
+- **AND (&)**: Sets each bit to 1 if both corresponding bits are 1.
+- **OR (|)**: Sets each bit to 1 if either corresponding bit is 1.
+- **XOR (^)**: Sets each bit to 1 if only one of the corresponding bits is 1.
+- **NOT (~)**: Flips all the bits (1s become 0s and vice versa).
+- **Left Shift (<<)**: Shifts the bits to the left by a specified number of positions, filling with zeros.
+- **Right Shift (>>)**: Shifts the bits to the right by a specified number of positions, preserving the sign bit.
+- **Unsigned Right Shift (>>>)**: Shifts the bits to the right, filling with zeros.
+
+5. Explain Access Modifiers: Default, Private, Public and Protected.
+ANS: 
+**Access Modifiers**: Access modifiers define the visibility and accessibility of class members (fields, methods, constructors) from other classes.
+
+- **Default**: Members are accessible within the same package only.
+- **Private**: Members are accessible only within the same class.
+- **Protected**: Members are accessible within the same package and subclasses (even if they are in different packages).
+- **Public**: Members are accessible from any class.
+
+6. What is difference between while and do while loops?.
+ANS:**While vs. Do-While Loops**: Both loops repeat a block of code based on a condition.
+
+- **While Loop**: Condition is checked before the loop executes, and it may not run if the condition is false from the start.
+
+- **Do-While Loop**: The loop executes at least once before checking the condition, ensuring the code block runs at least once, even if the condition is false.
+
+While loops are generally used when the number of iterations is unknown, and do-while loops are suitable when you need the code block to execute at least once.
+
+
+;;;;;;;;;;;;
+
+
+
+
