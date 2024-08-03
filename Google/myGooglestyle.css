@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(120deg, #000428, #004e92);
+    color: #fff;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    transition: all 0.3s ease;
+}
+
+.search-bar:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.search-bar input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    flex-grow: 1;
+    padding: 0 1rem;
+}
+
+.search-bar input::placeholder {
+    color: #ccc;
+}
+
+.search-bar button {
+    background: #ff007f;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.search-bar button:hover {
+    background: #ff66a3;
+}
+
+.search-bar .fa-microphone {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.quick-links {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.quick-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+    color: #ff66a3;
+}
+
+.widget {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.widget h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.widget p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}

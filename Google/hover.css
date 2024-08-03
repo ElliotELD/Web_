@@ -1,0 +1,45 @@
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu:hover {
+    text-decoration: underline;
+    background-color: #ffffff38;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sign:hover {
+    cursor: pointer;
+}
+
+.search:hover {
+    background-color: #ffffff38;
+    border-radius: 50px;
+    cursor: text;
+}
+
+.search-btn-1 button:hover {
+    cursor: pointer;
+    border: 1px solid #ffffff38;
+}
+
+.search-btn-2 button:hover {
+    cursor: pointer;
+    border: 1px solid #ffffff38;
+}
+
+.languages p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-left a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-right a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

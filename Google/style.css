@@ -18,9 +18,12 @@ body {
     --footer-bg: #171717;
 }
 
+header {
+    padding: 20px 10px;
+}
+
 body {
     background-color: var(--bg-color);
-    padding: 50px;
 }
 
 ul {
@@ -39,7 +42,7 @@ ul li img {
 ul li a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 13px;
 }
 
 .sign {
@@ -48,5 +51,139 @@ ul li a {
     background-color: var(--btn-bg-color);
     border-radius: 27px;
     border: none;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 38vh;
+}
+
+.g_logo img {
+    width: 419px;
+    height: auto;
+}
+
+.search {
+    width: 584px;
+    height: 48px;
+    margin: 0 auto;
+    border-radius: 24px;
+    border: solid 1px #5F6368;
+}
+
+.search input {
+    border-radius: 24px;
+    border: none;
+    background-color: var(--bg-color);
+    color: #ffffff;
+    caret-color: gray;
+    font-size: 18px;
+    width: 500px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search {
+    width: 584px;
+    height: 48px;
+    border-radius: 24px;
+    border: solid 1px #5F6368;
+    background-color: var(--bg-color);
+    padding: 10px 44px;
+    color: #ffffff;
+    caret-color: gray;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+
+.search-btns {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.search-btn-1 button {
+    width: 127px;
+    height: 40px;
+    background-color: #303134;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+}
+
+.search-btn-2 button {
+    width: 127px;
+    height: 40px;
+    background-color: #303134;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+}
+
+.languages {
+    margin-top: 20px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.languages p span {
+    color: #ffffff9d;
+}
+
+.languages p {
+    color: var(--text-color);
+}
+
+.region {
+    background-color: #171717;
+    width: 100%;
+    height: 20px;
+    padding: 20px 10px;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.region p {
+    color: #ffffff;
+
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: var(--bg-color);
+    color: #ffffff;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-left {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-right {
+    display: flex;
+    gap: 20px;
 }
